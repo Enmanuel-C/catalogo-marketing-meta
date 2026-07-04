@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación Académica | Catálogo Virtual</title>
+    <link rel="stylesheet" href="styless.css">
+    <!-- FontAwesome para los iconos de redes sociales en contacto -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- 
+      AQUÍ PEGARÁS EL CÓDIGO DEL META PIXEL (SCRIPT) 
+      CUANDO LO GENERES EN EL BUSINESS MANAGER 
+    -->
+</head>
+<body>
+
+    <!-- Banner Ético de Advertencia Académica -->
+    <div class="banner-educativo">
+        <p><strong>Aviso Importante:</strong> Este sitio web es una simulación estrictamente académica para la asignatura de Marketing Digital (UPTAIET). Los productos, precios y servicios son ficticios.</p>
+    </div>
+
+    <!-- Encabezado / Navbar -->
+    <header>
+        <div class="container header-flex">
+            <h1 class="logo">EcoTech <span>Simulaciones</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section class="hero">
+        <div class="container">
+            <h2>Soluciones Tecnológicas de Prueba</h2>
+            <p>Explora nuestro catálogo ficticio diseñado para la validación de infraestructura digital y píxeles de seguimiento.</p>
+            <a href="#catalogo" class="btn-primary">Ver Catálogo</a>
+        </div>
+    </section>
+
+    <!-- Sección de Catálogo (6 Productos) -->
+    <main class="container" id="catalogo">
+        <h3 class="section-title">Productos Disponibles</h3>
+        
+        <div class="grid-productos">
+            <!-- Producto 1 -->
+            <div class="card-producto">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format&fit=crop&q=60" alt="Smartwatch">
+                <div class="card-body">
+                    <h4>Smartwatch Chronos X</h4>
+                    <p class="descripcion">Dispositivo vestible de simulación con pantalla AMOLED táctil y métricas de rendimiento deportivo.</p>
+                    <p class="precio">$49.99</p>
+                    <button class="btn-comprar" onclick="registrarClic('Smartwatch Chronos X')">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="card-producto">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=60" alt="Audífonos">
+                <div class="card-body">
+                    <h4>Audífonos SoundNova</h4>
+                    <p class="descripcion">Auriculares inalámbricos con cancelación de ruido activa ideales para alta fidelidad de audio.</p>
+                    <p class="precio">$79.99</p>
+                    <button class="btn-comprar" onclick="registrarClic('Audífonos SoundNova')">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="card-producto">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60" alt="Zapatillas">
+                <div class="card-body">
+                    <h4>Zapatillas AeroRun V2</h4>
+                    <p class="descripcion">Calzado deportivo conceptual de alto rendimiento con amortiguación de impacto mejorada.</p>
+                    <p class="precio">$120.00</p>
+                    <button class="btn-comprar" onclick="registrarClic('Zapatillas AeroRun V2')">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="card-producto">
+                <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&auto=format&fit=crop&q=60" alt="Monitor">
+                <div class="card-body">
+                    <h4>Monitor UltraView 27"</h4>
+                    <p class="descripcion">Pantalla IPS con resolución Quad HD y 144Hz, ideal para optimizar espacios de desarrollo técnico.</p>
+                    <p class="precio">$249.99</p>
+                    <button class="btn-comprar" onclick="registrarClic('Monitor UltraView 27')">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="card-producto">
+                <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&auto=format&fit=crop&q=60" alt="Teclado">
+                <div class="card-body">
+                    <h4>Teclado Mecánico ApexK</h4>
+                    <p class="descripcion">Teclado compacto con switches mecánicos silenciosos y retroiluminación RGB configurable.</p>
+                    <p class="precio">$65.00</p>
+                    <button class="btn-comprar" onclick="registrarClic('Teclado Mecánico ApexK')">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="card-producto">
+                <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&auto=format&fit=crop&q=60" alt="Mouse">
+                <div class="card-body">
+                    <h4>Mouse Ergonómico Glide</h4>
+                    <p class="descripcion">Mouse inalámbrico de alta precisión con diseño ergonómico para reducir la fatiga en largas jornadas.</p>
+                    <p class="precio">$35.50</p>
+                    <button class="btn-comprar" onclick="registrarClic('Mouse Ergonómico Glide')">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Contacto Mejorada -->
+    <section class="contacto-section" id="contacto">
+        <div class="container">
+            <h3 class="section-title">Nuestros Canales de Atención</h3>
+            <p class="contacto-sub">Conéctate con nosotros a través de nuestras plataformas oficiales del proyecto.</p>
+            
+            <div class="redes-container">
+                <!-- Enlace Facebook (Reemplaza el # por el link de tu página secundaria) -->
+                <a href="#" target="_blank" class="social-box facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook Page</span>
+                </a>
+
+                <!-- Enlace Instagram (Reemplaza el # por el link de tu IG de la práctica) -->
+                <a href="#" target="_blank" class="social-box instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+
+                <!-- Enlace WhatsApp (Reemplaza el número de ejemplo por el tuyo en formato internacional) -->
+                <a href="https://wa.me/584120000000" target="_blank" class="social-box whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp Business</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 EcoTech Simulaciones. Desarrollado con fines pedagógicos.</p>
+            <p>Proyecto Técnico - Verificación de Píxel de Conversión</p>
+        </div>
+    </footer>
+
+    <!-- Lógica de JavaScript Básica para Dinamismo -->
+    <script>
+        function registrarClic(nombreProducto) {
+            alert(`Procesando simulación de orden para: ${nombreProducto}.\nEste evento ('AddToCart') es detectado por el Meta Pixel.`);
+            
+            // Cuando configures el Píxel, puedes descomentar la línea de abajo para enviar el evento real a Meta:
+            // fbq('track', 'AddToCart', { content_names: [nombreProducto] });
+        }
+    </script>
+</body>
+</html>
